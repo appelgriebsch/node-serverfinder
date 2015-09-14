@@ -1,0 +1,28 @@
+{
+  "name": "node-servicefinder",
+  "version": "0.1.0",
+  "description": "Finds service endpoints on the local network",
+  "main": "serviceFinder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appelgriebsch/node-servicefinder.git"
+  },
+  "keywords": [
+    "multicast-dns",
+    "local-services"
+  ],
+  "author": "Andreas Gerlach <info@appelgriebsch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appelgriebsch/node-servicefinder/issues"
+  },
+  "homepage": "https://github.com/appelgriebsch/node-servicefinder#readme",
+  "dependencies": {
+    "multicast-dns": "^3.0.0",
+    "multicast-dns-service-types": "^1.1.0",
+    "network-address": "^1.0.0"
+  }
+}
